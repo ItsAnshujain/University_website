@@ -1,0 +1,208 @@
+
+a:hover{
+    text-decoration: none;
+}
+
+nav.navbar {
+    background-color: navy;
+}
+
+nav.navbar .navbar-nav li a {
+    color: white;
+    background: none;
+}
+
+nav.navbar .navbar-nav li a:hover {
+    border-bottom: 1px solid white;
+}
+
+nav.navbar .navbar-nav li a:focus {
+    background-color: transparent;
+}
+
+nav.navbar .navbar-nav .dropdown-menu li a {
+    color: black;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+nav.navbar .navbar-nav .dropdown-menu li a:hover {
+    color: black;
+    border-left: 2px solid black;
+}
+
+.announce {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: white;
+    background-color: darkblue;
+    float: left;
+    width: 260px;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 20px;
+}
+
+.line {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    color: black;
+    background-color: white;
+    height: 60px;
+    border: 2px solid white;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.row1 {
+    border: px solid black;
+    height: 60px;
+    margin: 10px;
+}
+
+.col-md-2 {
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border: 2px solid black;
+    height: 60px;
+    text-align: center;
+}
+
+.lbox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 19%;
+    height: 60px;
+    background-color: red;
+    color: white;
+    float: left;
+    border: 2px solid black;
+    margin: 4px;
+}
+
+.main {
+    margin: 4px;
+    width: 60.3%;
+    height: 60px;
+    float: left;
+}
+
+.cbox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 24.4%;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    float: left;
+    border: 2px solid white;
+}
+
+.rbox {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 19%;
+    height: 60px;
+    background-color: red;
+    color: white;
+    border: 2px solid black;
+    margin: 4px;
+   
+}
+
+.cbox:hover {
+    background-color: red;
+    color: white;
+}
+
+.left {
+    width: 19%;
+    height: 60%;
+    float: left;
+    margin: 4px;
+}
+
+.center {
+    margin: 4px;
+    width: 60%;
+    height: 60%;
+    float: left;
+}
+
+.cimg {
+    width: 90%;
+    height: 90%;
+}
+
+.right {
+    width: 18.8%;
+    height: 60%;
+    float: left;
+    margin: 4px;
+}
+
+.bottom {
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 19.7%;
+    height: 60px;
+    background-color: gray;
+    color: white;
+    float: left;
+    border: 2px solid white;
+}
+
+.bottom:hover {
+    background-color: red;
+    color: white;
+}
+
+.owl-controls .owl-buttons {
+    position: relative;
+}
+
+.owl-controls .owl-prev {
+    position: absolute;
+    left: -40px;
+    bottom: 230px;
+    padding: 8px 17px;
+    background: #26ccca;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.owl-controls .owl-next {
+    position: absolute;
+    right: -40px;
+    bottom: 230px;
+    padding: 8px 17px;
+    background: #26ccca;
+    border-radius: 50px;
+    transition: .5s;
+}
+
+.owl-controls .owl-prev:after,
+.owl-controls .owl-next:after {
+    content: '\f104';
+    font-family: FontAwesome;
+    color: #fff;
+    font-size: 16px;
+}
+
+.owl-controls .owl-next:after {
+    content: '\f105';
+}
+
+.owl-controls .owl-prev:hover,
+.owl-controls .owl-next:hover {
+    background: #000;
+}
+
